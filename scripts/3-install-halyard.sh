@@ -9,7 +9,6 @@ sudo apt-get -y install jq openjdk-11-jdk
 
 curl -O https://raw.githubusercontent.com/spinnaker/halyard/master/install/debian/InstallHalyard.sh
 sudo bash InstallHalyard.sh --user ubuntu
-sudo update-halyard
 curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh
 sudo usermod -aG docker ubuntu
@@ -26,3 +25,4 @@ echo $MINIO_SECRET_KEY | hal config storage s3 edit --endpoint http://127.0.0.1:
 
 hal config storage edit --type s3
 
+sudo update-halyard
