@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "deb https://us-apt.pkg.dev/projects/spinnaker-community apt main" >> /etc/apt/sources.list
+
 set -e
 
 sudo add-apt-repository ppa:openjdk-r/ppa -y
