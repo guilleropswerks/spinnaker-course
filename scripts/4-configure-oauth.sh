@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # env flags that need to be set:
-CLIENT_ID=myClientId
-CLIENT_SECRET=myClientSecret
+CLIENT_ID=
+CLIENT_SECRET=
 PROVIDER=github
 REDIRECT_URI=http://ip:8084/login
 
