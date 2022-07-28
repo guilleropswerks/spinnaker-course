@@ -3,7 +3,7 @@
 # env flags that need to be set:
 CLIENT_ID=myClientId
 CLIENT_SECRET=myClientSecret
-PROVIDER=google|github|azure
+PROVIDER=github
 REDIRECT_URI=http://ip:8084/login
 
 set -e
